@@ -2,4 +2,4 @@
 
 ## Frappe de chine
 
-Accessible sur [cette page](https://maygodev.github.io/formation-sql)
+Accessible sur [cette page](https://maygodev.github.io/formation-html)
