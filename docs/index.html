@@ -6,6 +6,31 @@
     <title>La frappe de chine</title>
   </head>
   <body>
+    <style>
+      body {
+        text-align: center;
+        font-family: Arial, sans-serif;
+        background-color: #f8e8c8;
+      }
+      h1 {
+        color: #8b4513;
+      }
+      #cookie {
+        width: 150px;
+        cursor: pointer;
+        transition: transform 0.1s;
+      }
+      #cookie:active {
+        transform: scale(0.9);
+      }
+      #counter {
+        font-size: 2em;
+        margin-top: 10px;
+      }
+    </style>
+
+    <img id="cookie" src="cookie3-removebg-preview.png" alt="Cookie" />
+
     <h1>La frappe de chine</h1>
     <p>
       La frappe de chine est un terme utilisé pour désigner une technique de
@@ -67,5 +92,13 @@
     <footer>
       <p>&copy; 2023 La frappe de chine. Tous droits réservés.</p>
     </footer>
+
+    <script>
+      let count = 0;
+      document.getElementById("cookie").addEventListener("click", function () {
+        count++;
+        document.getElementById("counter").textContent = count;
+      });
+    </script>
   </body>
 </html>
